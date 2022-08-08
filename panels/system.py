@@ -39,8 +39,7 @@ class SystemPanel(ScreenPanel):
                        _("Are you sure you wish to reboot the system?"), "machine.reboot")
         reboot.set_vexpand(False)
         shutdown = self._gtk.ButtonImage('shutdown', _('System\nShutdown'), 'color4')
-        shutdown.connect("clicked", self._screen._confirm_send_action,
-                         _("Are you sure you wish to shutdown the system?"), "machine.shutdown")
+        shutdown.connect("clicked", self.shutdown_pad)
         shutdown.set_vexpand(False)
 
         scroll = self._gtk.ScrolledWindow()

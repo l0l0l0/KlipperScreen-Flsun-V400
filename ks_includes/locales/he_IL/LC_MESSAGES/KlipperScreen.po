@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Klipperscreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-03-31 10:54-0300\n"
+"PO-Revision-Date: 2022-08-08 18:03+0200\n"
 "Last-Translator: Emanuel Sharvit <manu7irl@gmail.com>\n"
 "Language-Team: \n"
 "Language: he_IL\n"
@@ -17,15 +17,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
 "2 : 3);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Auto-close notifications"
+msgstr ""
+
+msgid "Please plug in leveling switch before auto-leveling"
+msgstr ""
+
+msgid "Please remove leveling switch before move Z0"
+msgstr ""
+
+msgid "Move Z0"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "LED ON"
+msgstr ""
+
+msgid "LED OFF"
+msgstr ""
+
+msgid "LOGO ON"
+msgstr ""
+
+msgid "LOGO OFF"
+msgstr ""
 
 #, python-format
 msgid "%s will be updated to version"
 msgstr "%s יעודכן לגרסה"
 
 msgid "(default)"
-msgstr "(בְּרִירַת מֶחדָל)"
+msgstr "(בְּרִירַת מֶחדָל)"
 
 msgid "24 Hour Time"
 msgstr "זמן 24 שעות"
@@ -149,7 +176,7 @@ msgid "Close"
 msgstr "סגור"
 
 msgid "Complete"
-msgstr "לְהַשְׁלִים"
+msgstr "לְהַשְׁלִים"
 
 msgid "Configuration"
 msgstr "קונפיגורציה"
@@ -158,7 +185,7 @@ msgid "Confirm Emergency Stop"
 msgstr "אשר עצירת חירום"
 
 msgid "Connected"
-msgstr "מְחוּבָּר"
+msgstr "מְחוּבָּר"
 
 #, python-format
 msgid "Connecting to %s"
@@ -168,7 +195,7 @@ msgid "Console"
 msgstr "לְנַחֵם"
 
 msgid "Continue"
-msgstr "לְהַמשִׁיך"
+msgstr "לְהַמשִׁיך"
 
 msgid "Cooldown"
 msgstr "תירגע"
@@ -202,7 +229,7 @@ msgid "Elapsed:"
 msgstr "זמן שעבר:"
 
 msgid "Error"
-msgstr "שְׁגִיאָה"
+msgstr "שְׁגִיאָה"
 
 msgid "Estimated Time Method"
 msgstr "שיטת זמן משוערת"
@@ -330,7 +357,7 @@ msgid "Input Shaper"
 msgstr ""
 
 msgid "Interface"
-msgstr "מִמְשָׁק"
+msgstr "מִמְשָׁק"
 
 msgid "Invalid"
 msgstr "לא חוקי"
@@ -436,7 +463,7 @@ msgid "Move Distance (mm)"
 msgstr "מרחק הזזה (מ''מ)"
 
 msgid "Name"
-msgstr "שֵׁם"
+msgstr "שֵׁם"
 
 msgid "Network"
 msgstr "רשת"
@@ -590,7 +617,7 @@ msgid "Select"
 msgstr "בחר"
 
 msgid "Send"
-msgstr "לִשְׁלוֹחַ"
+msgstr "לִשְׁלוֹחַ"
 
 #, python-format
 msgid "Sending Power ON signal to: %s"
