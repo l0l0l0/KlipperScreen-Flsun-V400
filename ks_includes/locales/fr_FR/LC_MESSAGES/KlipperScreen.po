@@ -541,7 +541,7 @@ msgid "Quad Gantry Level"
 msgstr "Portique à quatre niveaux"
 
 msgid "Raise Nozzle"
-msgstr "Soulever la buse"
+msgstr "Eloigner la buse"
 
 msgid "Recover Hard"
 msgstr "Récupération Hard"
