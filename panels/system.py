@@ -376,3 +376,6 @@ class SystemPanel(ScreenPanel):
     def _autoscroll(self, *args):
         adj = self.labels['update_scroll'].get_vadjustment()
         adj.set_value(adj.get_upper() - adj.get_page_size())
+
+    def shutdown_pad(self, widget): #flsun add ,add a shutdown function
+        os.system("shutdown -H now")
