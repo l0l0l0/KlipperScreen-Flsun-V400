@@ -16,10 +16,13 @@ msgstr ""
 msgid "Auto-close notifications"
 msgstr ""
 
-msgid "Please plug in leveling switch before auto-leveling"
+msgid "Please plug in leveling switch before Delta Calibration."
 msgstr ""
 
-msgid "Please remove leveling switch before move Z0"
+msgid "Please plug in leveling switch before auto-leveling."
+msgstr ""
+
+msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
