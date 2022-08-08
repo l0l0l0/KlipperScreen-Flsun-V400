@@ -30,10 +30,7 @@ class ZCalibratePanel(ScreenPanel):
             bs = print_cfg.get("z_babystep_values", "0.01, 0.05, 0.1")
             if re.match(r'^[0-9,\.\s]+$', bs):
                 bs = [str(i.strip()) for i in bs.split(',')]
-                if len(bs) <= 2:
-                    self.bs_deltas = bs
-                else:
-                    self.bs_deltas = [bs[0], bs[-1]]
+                self.bs_deltas = bs if len(bs) <= 2 else [bs[0], bs[-1]]
                 self.bs_delta = self.bs_deltas[0]
 
         self.labels['z+'] = self._gtk.ButtonImage("z-farther", _("Raise Nozzle"), "color1")  
@@ -44,8 +41,8 @@ class ZCalibratePanel(ScreenPanel):
         self.labels['z-'].connect("clicked", self.change_babystepping, "-")
 
         grid.attach(self.labels['z+'], 1, 0, 1, 1)
-        grid.attach(self.labels['zoffset'], 1, 1, 1, 1)
-        grid.attach(self.labels['z-'], 1, 2, 1, 1)
+        grid.attach(self.labels['z-'],  1, 1, 1, 1)
+        grid.attach(self.labels['zoffset'], 1, 2, 1, 1)
 
         bsgrid = Gtk.Grid()
         j = 0
