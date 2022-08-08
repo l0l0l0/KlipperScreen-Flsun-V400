@@ -36,12 +36,11 @@ class ZCalibratePanel(ScreenPanel):
                     self.bs_deltas = [bs[0], bs[-1]]
                 self.bs_delta = self.bs_deltas[0]
 
-        self.labels['z+'] = self._gtk.ButtonImage("z-farther", _("Z+"), "color1")  
+        self.labels['z+'] = self._gtk.ButtonImage("z-farther", _("Raise Nozzle"), "color1")  
         self.labels['z+'].connect("clicked", self.change_babystepping, "+")
         self.labels['zoffset'] = Gtk.Label("0.00" + _("mm"))
-        self.labels['zoffset'].get_style_context().add_class('temperature_entry')        
-        #flsun add,"arrow-down" modify "z-closer" By:zzcatvs        
-        self.labels['z-'] = self._gtk.ButtonImage("z-closer", _("Z-"), "color1")
+        self.labels['zoffset'].get_style_context().add_class('temperature_entry')           
+        self.labels['z-'] = self._gtk.ButtonImage("z-closer", _("Lower Nozzle"), "color1")
         self.labels['z-'].connect("clicked", self.change_babystepping, "-")
 
         grid.attach(self.labels['z+'], 1, 0, 1, 1)
@@ -76,7 +75,7 @@ class ZCalibratePanel(ScreenPanel):
 
         if "gcode_move" in data:
             if "homing_origin" in data["gcode_move"]:
-                self.labels['zoffset'].set_text("%.2fmm" % data["gcode_move"]["homing_origin"][2])
+                self.labels['zoffset'].set_text("Z Offset: %.2fmm" % data["gcode_move"]["homing_origin"][2])
 
     def change_babystepping(self, widget, dir):
         if dir == "+":
