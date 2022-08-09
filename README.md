@@ -15,7 +15,7 @@ This version of KlipperScreen is compatible with FLSUN's Speeder Pad, it's optim
 - Latest build of KlipperScreen
 - Z-Offset Calibration menu rearrangement
 - Added support for Endstops Phase Calibration
-- Some fixes and adjustements
+- Some fixes and adjustments
 
 
 ### Installation
