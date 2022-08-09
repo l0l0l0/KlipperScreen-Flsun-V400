@@ -386,7 +386,9 @@ class JobStatusPanel(ScreenPanel):
             'pause': self._gtk.ButtonImage("pause", _("Pause"), "color1"),
             'restart': self._gtk.ButtonImage("refresh", _("Restart"), "color3"),
             'resume': self._gtk.ButtonImage("resume", _("Resume"), "color1"),
-            'save_offset_probe': self._gtk.ButtonImage("home-z", _("Save Z") + "\n" + "Probe", "color1"),
+            # Changes Start
+            'save_offset_probe': self._gtk.ButtonImage("home-z", _("Save Z") + "-Offset", "color1"),
+            # Changes End
             'save_offset_endstop': self._gtk.ButtonImage("home-z", _("Save Z") + "\n" + "Endstop", "color2"),
         }
         self.buttons['cancel'].connect("clicked", self.cancel)
