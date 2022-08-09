@@ -131,7 +131,9 @@ class SplashScreenPanel(ScreenPanel):
                                               "machine.shutdown")
         else:
             logging.info("OS Shutdown")
-            os.system("systemctl poweroff")
+            # Changes Start
+            os.system("shutdown -H now")
+            # Changes End
 
     def restart_system(self, widget):
 

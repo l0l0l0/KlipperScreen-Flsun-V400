@@ -1,3 +1,4 @@
+# Changes Start
 import gi
 import logging
 import re
@@ -15,8 +16,8 @@ class ZCalibratePanel(ScreenPanel):
     user_selecting = False
 
     bs = 0
-    bs_delta = "0.05"
-    bs_deltas = ["0.01", "0.05", "0.1"]
+    bs_delta = "0.1"
+    bs_deltas = ["0.01", "0.05", "0.1", "0.5", "1"]
 
     def initialize(self, panel_name):
         _ = self.lang.gettext
@@ -25,24 +26,26 @@ class ZCalibratePanel(ScreenPanel):
         grid.set_row_homogeneous(False)
         logging.debug("ZCalibratePanel")
 
-        print_cfg = self._config.get_printer_config(self._screen.connected_printer)
-        if print_cfg is not None:
-            bs = print_cfg.get("z_babystep_values", "0.01, 0.05, 0.1")
-            if re.match(r'^[0-9,\.\s]+$', bs):
-                bs = [str(i.strip()) for i in bs.split(',')]
-                self.bs_deltas = bs if len(bs) <= 2 else [bs[0], bs[-1]]
-                self.bs_delta = self.bs_deltas[0]
-
+        self.labels['start'] = self._gtk.ButtonImage('arrow-down', _("Move Z0"), 'color1')
+        script = {"script": "G28\nG1 Z0 F1000"}
+        self.labels['start'].connect("clicked", self._screen._confirm_send_action,
+                                          _("Please remove leveling switch before move Z0."),
+                                          "printer.gcode.script", script)
         self.labels['z+'] = self._gtk.ButtonImage("z-farther", _("Raise Nozzle"), "color1")  
         self.labels['z+'].connect("clicked", self.change_babystepping, "+")
-        self.labels['zoffset'] = Gtk.Label("0.00" + _("mm"))
-        self.labels['zoffset'].get_style_context().add_class('temperature_entry')           
+        self.labels['zoffset'] = Gtk.Label("0.00" + _("mm"))         
         self.labels['z-'] = self._gtk.ButtonImage("z-closer", _("Lower Nozzle"), "color1")
         self.labels['z-'].connect("clicked", self.change_babystepping, "-")
-
-        grid.attach(self.labels['z+'], 1, 0, 1, 1)
-        grid.attach(self.labels['z-'],  1, 1, 1, 1)
-        grid.attach(self.labels['zoffset'], 1, 2, 1, 1)
+        self.labels['move_dist'] = Gtk.Label(_("Move Distance (mm)"))
+        self.labels['blank'] = Gtk.Label()
+        
+        grid.attach(self.labels['start'], 0, 0, 1, 1)
+        grid.attach(self.labels['z+'], 1, 0, 2, 1)
+        grid.attach(self.labels['z-'],  1, 1, 2, 1)
+        grid.attach(self.labels['zoffset'], 0, 1, 1, 1)
+        grid.attach(self.labels['move_dist'], 0, 4, 1, 1)
+        grid.attach(self.labels['blank'], 0, 3, 1, 1)
+        
 
         bsgrid = Gtk.Grid()
         j = 0
@@ -60,7 +63,7 @@ class ZCalibratePanel(ScreenPanel):
                 ctx.add_class("distbutton_active")
             bsgrid.attach(self.labels[i], j, 0, 1, 1)
             j += 1
-        grid.attach(bsgrid, 1, 3, 1, 1)
+        grid.attach(bsgrid, 1, 4, 2, 1)
 
         self.content.add(grid)
 
@@ -98,4 +101,4 @@ class ZCalibratePanel(ScreenPanel):
             if i == self.bs_delta:
                 continue
             self.labels[i].set_active(False)
-    
+# Changes End
