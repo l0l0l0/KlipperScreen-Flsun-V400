@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 21:34+0200\n"
+"PO-Revision-Date: 2022-08-10 20:07+0200\n"
 "Last-Translator: alfrix\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -22,9 +22,6 @@ msgid "Endstops Calibrate"
 msgstr ""
 
 msgid "Calibrations"
-msgstr ""
-
-msgid "Auto-close notifications"
 msgstr ""
 
 msgid "Please plug in leveling switch before Delta Calibration."
@@ -85,8 +82,8 @@ msgstr "Acciones"
 msgid "Add Printer"
 msgstr "Agregar impresora"
 
-msgid "Add bed mesh profile"
-msgstr "Agregar pefil de malla de cama"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr "Aplicar"
@@ -120,6 +117,9 @@ msgstr "Auto"
 msgid "Auto-calibrate"
 msgstr "Auto-Calibrar"
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Auto-scroll"
 
@@ -129,8 +129,8 @@ msgstr "Nivelar cama"
 msgid "Bed Mesh"
 msgstr "Malla de cama"
 
-msgid "Bltouch found applied offset"
-msgstr "Encontrado Bltouch aplicado desfase"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "Calibrar"
@@ -140,6 +140,9 @@ msgstr "Calibrado"
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Calibrado, guarde su configuración para hacerlo permanente"
+
+msgid "Calibrating"
+msgstr "Calibrando"
 
 msgid "Calibrating..."
 msgstr "Calibrando..."
@@ -165,15 +168,11 @@ msgstr "No se puede conectar a Moonraker"
 msgid "Channel"
 msgstr "Canal"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Revise /tmp/KlipperScreen.log para mas información.\n"
-"Por favor crear un 'issue' en GitHub para ser ayudado."
-
 msgid "Check ADXL Wiring"
 msgstr "Verificar cableado del ADXL"
+
+msgid "Checking for updates, please wait..."
+msgstr ""
 
 msgid "Clear"
 msgstr "Limpiar"
@@ -214,6 +213,9 @@ msgstr "Disminuir"
 
 msgid "Delete"
 msgstr "Borrar"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "Deseleccionar"
@@ -433,7 +435,7 @@ msgid "Max"
 msgstr ""
 
 msgid "Max Acceleration"
-msgstr "Aceleración Max."
+msgstr "Aceleración Max"
 
 msgid "Max Acceleration to Deceleration"
 msgstr "Max. Aceleración a Desaceleración"
@@ -476,6 +478,11 @@ msgstr "Red"
 
 msgid "New"
 msgstr "Nuevo"
+
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
 
 msgid "Nothing selected"
 msgstr "Nada seleccionado"
@@ -543,9 +550,6 @@ msgstr "Imprimiendo"
 msgid "Probe Offset"
 msgstr "Desfase del sensor"
 
-msgid "Probe found applied offset"
-msgstr "Encontrado Probe aplicado desfase"
-
 msgid "Profile Name:"
 msgstr "Nombre del perfil:"
 
@@ -563,6 +567,9 @@ msgstr "Recuperar Soft"
 
 msgid "Reference"
 msgstr "Referencia"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "Reiniciar"
@@ -717,6 +724,9 @@ msgstr "Total:"
 msgid "Unknown Heater"
 msgstr "Calentador Desconocido"
 
+msgid "Unknown screw position"
+msgstr ""
+
 msgid "Unload"
 msgstr "Descargar"
 
@@ -804,101 +814,3 @@ msgstr "mm/s"
 
 msgid "mm/s²"
 msgstr "mm/s²"
-
-#~ msgid "Tool"
-#~ msgstr "Herrmienta"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "Macros mostrados"
-
-#~ msgid "Z Position"
-#~ msgstr "Posición Z"
-
-#~ msgid "IPv4"
-#~ msgstr "IPv4"
-
-#~ msgid "IPv6"
-#~ msgstr "IPv6"
-
-#~ msgid "Unknown Heater "
-#~ msgstr "Calentador Desconocido "
-
-#~ msgid "Disconnect"
-#~ msgstr "Desconectar"
-
-#~ msgid "Duration Only"
-#~ msgstr "Duración"
-
-#~ msgid "Klipper Version"
-#~ msgstr "Versión de Klipper"
-
-#~ msgid ""
-#~ "Klipper has encountered an error with the micro-controller.\n"
-#~ "Please recompile and flash."
-#~ msgstr ""
-#~ "Klipper encontró un error en el microcontrolador.\n"
-#~ "Por favor recompile y flasheelo."
-
-#~ msgid ""
-#~ "Klipper has encountered an error.\n"
-#~ "Issue a FIRMWARE_RESTART to attempt fixing the issue."
-#~ msgstr ""
-#~ "Klipper encontró un error.\n"
-#~ "Ejecute FIRMWARE_RESTART para tratar de arreglarlo."
-
-#~ msgid "KlipperScreen Version"
-#~ msgstr "Versión de KlipperScreen"
-
-#~ msgid "Show Only Heaters in Temp."
-#~ msgstr "Solo mostrar calentadores en Temp."
-
-#~ msgid "Target"
-#~ msgstr "Obejtivo"
-
-#~ msgid "Temp"
-#~ msgstr "Temp"
-
-#~ msgid "Number Pad"
-#~ msgstr "Teclado"
-
-#~ msgid "Preheat"
-#~ msgstr "Precalentar"
-
-#~ msgid "Screen will show in less than one second"
-#~ msgstr "La pantalla se mostrará en menos de un segundo"
-
-#~ msgid "Medium (default)"
-#~ msgstr "Medio (por defecto)"
-
-#~ msgid "File Estimation (default)"
-#~ msgstr "Archivo (por defecto)"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "Change Printer"
-#~ msgstr "Cambiar impresora"
-
-#~ msgid "Fan Off"
-#~ msgstr "Apagar"
-
-#~ msgid "Fan On"
-#~ msgstr "Encender"
-
-#~ msgid "Fast"
-#~ msgstr "Rápido"
-
-#~ msgid "Slow"
-#~ msgstr "Lento"
-
-#~ msgid "?"
-#~ msgstr "?"
-
-#~ msgid "Cancel Change"
-#~ msgstr "Cancelar"
-
-#~ msgid "Control"
-#~ msgstr "Control"
-
-#~ msgid "Load Average"
-#~ msgstr "Carga media"

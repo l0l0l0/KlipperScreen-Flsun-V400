@@ -19,9 +19,6 @@ msgstr ""
 msgid "Calibrations"
 msgstr ""
 
-msgid "Auto-close notifications"
-msgstr ""
-
 msgid "Please plug in leveling switch before Delta Calibration."
 msgstr ""
 
@@ -80,8 +77,8 @@ msgstr "Muligheder"
 msgid "Add Printer"
 msgstr "Tilføj printer"
 
-msgid "Add bed mesh profile"
-msgstr "Tilføj \"bed-mesh\" profil"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr ""
@@ -115,6 +112,9 @@ msgstr "Auto"
 msgid "Auto-calibrate"
 msgstr "Automatisk kalibrering"
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Auto-scroll"
 
@@ -124,8 +124,8 @@ msgstr "Bed-Level"
 msgid "Bed Mesh"
 msgstr "Bed-mesh"
 
-msgid "Bltouch found applied offset"
-msgstr "Bltouch fundet anvendt offset"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "Kalibrér"
@@ -135,6 +135,9 @@ msgstr "Kalibreret"
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Kalibreret, gem konfiguration for at gøre den permanent"
+
+msgid "Calibrating"
+msgstr "Kalibrerer"
 
 msgid "Calibrating..."
 msgstr "Kalibrerer..."
@@ -160,14 +163,10 @@ msgstr "Kan ikke oprette forbindelse til Moonraker"
 msgid "Channel"
 msgstr "Kanal"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Tjek /tmp/KlipperScreen.log for mere information.\n"
-"Indsend venligst et \"Issue\" på GitHub for hjælp."
-
 msgid "Check ADXL Wiring"
+msgstr ""
+
+msgid "Checking for updates, please wait..."
 msgstr ""
 
 msgid "Clear"
@@ -209,6 +208,9 @@ msgstr "Formindsk"
 
 msgid "Delete"
 msgstr "Slet"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "Fravælg"
@@ -472,6 +474,11 @@ msgstr "Netværk"
 msgid "New"
 msgstr "Ny"
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Intet valgt"
 
@@ -538,9 +545,6 @@ msgstr "Printer"
 msgid "Probe Offset"
 msgstr ""
 
-msgid "Probe found applied offset"
-msgstr "Probe fundet anvendt offset"
-
 msgid "Profile Name:"
 msgstr "Profilnavn:"
 
@@ -558,6 +562,9 @@ msgstr "Nulstil"
 
 msgid "Reference"
 msgstr "Reference"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "Genstart"
@@ -594,7 +601,7 @@ msgid "Save Z"
 msgstr "Gem Z"
 
 msgid "Save configuration?"
-msgstr "Gem Konfiguration"
+msgstr "Gem Konfiguration?"
 
 msgid "Saved"
 msgstr "Gemt"
@@ -650,7 +657,7 @@ msgid "Sort by: "
 msgstr "Sortér efter: "
 
 msgid "Sort:"
-msgstr "Sortere: "
+msgstr "Sortere:"
 
 msgid "Speed (mm/s)"
 msgstr "Hastighed (mm/s)"
@@ -662,7 +669,7 @@ msgid "Speed -"
 msgstr "Hastighed -"
 
 msgid "Speed:"
-msgstr "Hastighed"
+msgstr "Hastighed:"
 
 msgid "Square Corner Velocity"
 msgstr "Hastighed for 90° hjørne"
@@ -711,6 +718,9 @@ msgstr "Total:"
 
 msgid "Unknown Heater"
 msgstr "Ukendt varmelegeme"
+
+msgid "Unknown screw position"
+msgstr ""
 
 msgid "Unload"
 msgstr "Tilbagetræk"
@@ -799,56 +809,3 @@ msgstr "mm/s"
 
 msgid "mm/s²"
 msgstr "mm/s²"
-
-#~ msgid "Tool"
-#~ msgstr "Ekstruder"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "Viste makroer"
-
-#~ msgid "Z Position"
-#~ msgstr "Z-position"
-
-#~ msgid "IPv4"
-#~ msgstr "IPv4"
-
-#~ msgid "IPv6"
-#~ msgstr "IPv6"
-
-#~ msgid "Unknown Heater "
-#~ msgstr "Ukendt varmelegeme "
-
-#~ msgid "Disconnect"
-#~ msgstr "Afbryd forbindelse"
-
-#~ msgid "Duration Only"
-#~ msgstr "Kun varighed"
-
-#~ msgid "Klipper Version"
-#~ msgstr "Klipper version"
-
-#~ msgid ""
-#~ "Klipper has encountered an error with the micro-controller.\n"
-#~ "Please recompile and flash."
-#~ msgstr ""
-#~ "Klipper har fundet en fejl med mcu.\n"
-#~ "Kompilér og flash venligst firmware på ny."
-
-#~ msgid ""
-#~ "Klipper has encountered an error.\n"
-#~ "Issue a FIRMWARE_RESTART to attempt fixing the issue."
-#~ msgstr ""
-#~ "Klipper har fundet en fejl.\n"
-#~ "Tryk på \"Genstart alt\" for at forsøge at udbedre fejlen."
-
-#~ msgid "KlipperScreen Version"
-#~ msgstr "KlipperScreen version"
-
-#~ msgid "Show Only Heaters in Temp."
-#~ msgstr "Vis kun varmelegemer i Temp."
-
-#~ msgid "Target"
-#~ msgstr "Mål"
-
-#~ msgid "Temp"
-#~ msgstr "Temp"

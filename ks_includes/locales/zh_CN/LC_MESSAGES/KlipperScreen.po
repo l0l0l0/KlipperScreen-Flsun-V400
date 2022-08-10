@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 21:36+0200\n"
+"PO-Revision-Date: 2022-08-10 20:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -22,9 +22,6 @@ msgid "Endstops Calibrate"
 msgstr ""
 
 msgid "Calibrations"
-msgstr ""
-
-msgid "Auto-close notifications"
 msgstr ""
 
 msgid "Please plug in leveling switch before Delta Calibration."
@@ -85,8 +82,8 @@ msgstr "控制"
 msgid "Add Printer"
 msgstr "添加打印机"
 
-msgid "Add bed mesh profile"
-msgstr "添加热床网格"
+msgid "Add profile"
+msgstr "-"
 
 msgid "Apply"
 msgstr "应用"
@@ -120,6 +117,9 @@ msgstr "自动"
 msgid "Auto-calibrate"
 msgstr "自动校准"
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "自动滚屏"
 
@@ -129,8 +129,8 @@ msgstr "热床调平"
 msgid "Bed Mesh"
 msgstr "热床网格"
 
-msgid "Bltouch found applied offset"
-msgstr "Bltouch 发现应用的偏移量"
+msgid "Bed screw configuration:"
+msgstr "-"
 
 msgid "Calibrate"
 msgstr "校准"
@@ -140,6 +140,9 @@ msgstr "已校准"
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "已校准，保存配置后生效"
+
+msgid "Calibrating"
+msgstr "校准中"
 
 msgid "Calibrating..."
 msgstr "校准中..."
@@ -165,15 +168,11 @@ msgstr "无法连接到Moonraker"
 msgid "Channel"
 msgstr "更新通道"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"检查/tmp/KlipperScreen.log以获取更多信息。\n"
-"请在GitHub上提交问题以寻求帮助。"
-
 msgid "Check ADXL Wiring"
 msgstr "检查ADXL的接线"
+
+msgid "Checking for updates, please wait..."
+msgstr ""
 
 msgid "Clear"
 msgstr "清楚"
@@ -214,6 +213,9 @@ msgstr "减少"
 
 msgid "Delete"
 msgstr "删除"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "取消选择"
@@ -477,6 +479,11 @@ msgstr "网络"
 msgid "New"
 msgstr ""
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "未选择任何内容"
 
@@ -542,9 +549,6 @@ msgstr "打印中"
 msgid "Probe Offset"
 msgstr "探头偏移"
 
-msgid "Probe found applied offset"
-msgstr "找到探头偏移"
-
 msgid "Profile Name:"
 msgstr "配置文件名称:"
 
@@ -562,6 +566,9 @@ msgstr "重置(Soft)"
 
 msgid "Reference"
 msgstr "参考"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "重启Klipper"
@@ -716,6 +723,9 @@ msgstr "总:"
 msgid "Unknown Heater"
 msgstr "未知加热器"
 
+msgid "Unknown screw position"
+msgstr ""
+
 msgid "Unload"
 msgstr "卸载"
 
@@ -801,101 +811,3 @@ msgstr ""
 
 msgid "mm/s²"
 msgstr ""
-
-#~ msgid "Tool"
-#~ msgstr "工具"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "宏命令显示开关"
-
-#~ msgid "Z Position"
-#~ msgstr "Z 位置"
-
-#~ msgid "IPv4"
-#~ msgstr "IPv4 地址"
-
-#~ msgid "IPv6"
-#~ msgstr "IPv6 地址"
-
-#~ msgid "Unknown Heater "
-#~ msgstr "未知加热器 "
-
-#~ msgid "Disconnect"
-#~ msgstr "断开"
-
-#~ msgid "Duration Only"
-#~ msgstr "持续时间"
-
-#~ msgid "Klipper Version"
-#~ msgstr "Klipper 版本"
-
-#~ msgid ""
-#~ "Klipper has encountered an error with the micro-controller.\n"
-#~ "Please recompile and flash."
-#~ msgstr ""
-#~ "Klipper与MCU通讯错误。\n"
-#~ "请为主板重新烧录固件。"
-
-#~ msgid ""
-#~ "Klipper has encountered an error.\n"
-#~ "Issue a FIRMWARE_RESTART to attempt fixing the issue."
-#~ msgstr ""
-#~ "Klipper 遇到错误。\n"
-#~ "使用”FIRMWARE_RESTART“命令尝试解决此问题。"
-
-#~ msgid "KlipperScreen Version"
-#~ msgstr "KlipperScreen 版本"
-
-#~ msgid "Show Only Heaters in Temp."
-#~ msgstr "仅显示使用中的加热器."
-
-#~ msgid "Target"
-#~ msgstr "目标"
-
-#~ msgid "Temp"
-#~ msgstr "温度"
-
-#~ msgid "Number Pad"
-#~ msgstr "数字键盘"
-
-#~ msgid "Preheat"
-#~ msgstr "预热"
-
-#~ msgid "Screen will show in less than one second"
-#~ msgstr "屏幕将在1秒内显示"
-
-#~ msgid "Medium (default)"
-#~ msgstr "中 (默认)"
-
-#~ msgid "File Estimation (default)"
-#~ msgstr "文件 (默认)"
-
-#~ msgid "Fan Off"
-#~ msgstr "关闭风扇"
-
-#~ msgid "Fan On"
-#~ msgstr "打开风扇"
-
-#~ msgid "Fast"
-#~ msgstr "加速"
-
-#~ msgid "Slow"
-#~ msgstr "减速"
-
-#~ msgid "?"
-#~ msgstr "?"
-
-#~ msgid "Cancel Change"
-#~ msgstr "取消更改"
-
-#~ msgid "Control"
-#~ msgstr "控制"
-
-#~ msgid "Load Average"
-#~ msgstr "平均负载"
-
-#~ msgid "Network Info"
-#~ msgstr "网络信息"
-
-#~ msgid "Screen Blanking Time"
-#~ msgstr "关闭屏幕时间"

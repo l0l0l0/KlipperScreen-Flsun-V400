@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 21:35+0200\n"
+"PO-Revision-Date: 2022-08-10 20:22+0200\n"
 "Last-Translator: Jakob Kais <schpuntik@freenet.de>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -23,9 +23,6 @@ msgid "Endstops Calibrate"
 msgstr ""
 
 msgid "Calibrations"
-msgstr ""
-
-msgid "Auto-close notifications"
 msgstr ""
 
 msgid "Please plug in leveling switch before Delta Calibration."
@@ -86,8 +83,8 @@ msgstr "Действия"
 msgid "Add Printer"
 msgstr "Добавить принтер"
 
-msgid "Add bed mesh profile"
-msgstr "Добавить профиль сетки стола"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr ""
@@ -121,6 +118,9 @@ msgstr "Авто"
 msgid "Auto-calibrate"
 msgstr ""
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Автопрокрутка"
 
@@ -130,8 +130,8 @@ msgstr "Уровень стола"
 msgid "Bed Mesh"
 msgstr "Сетка стола"
 
-msgid "Bltouch found applied offset"
-msgstr "Bltouch обнаружил примененное смещение"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "Калибровка"
@@ -142,8 +142,11 @@ msgstr ""
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Откалибровано, сохраните конфигурацию, чтобы сделать ее постоянной"
 
+msgid "Calibrating"
+msgstr "Калибровка"
+
 msgid "Calibrating..."
-msgstr ""
+msgstr "Калибровка…"
 
 msgid "Can't set above the maximum:"
 msgstr "Невозможно установить выше максимума:"
@@ -166,14 +169,10 @@ msgstr "Не могу подключиться к Moonraker"
 msgid "Channel"
 msgstr "Канал"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Проверьте /tmp/KlipperScreen.log для дополнитольной информации.\n"
-"Создайте issues на GitHub что-бы получить помощь."
-
 msgid "Check ADXL Wiring"
+msgstr ""
+
+msgid "Checking for updates, please wait..."
 msgstr ""
 
 msgid "Clear"
@@ -215,6 +214,9 @@ msgstr "Уменьшить"
 
 msgid "Delete"
 msgstr "Удалить"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "Отменить выбор"
@@ -478,6 +480,11 @@ msgstr "Сеть"
 msgid "New"
 msgstr ""
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Ничего не выбрано"
 
@@ -545,9 +552,6 @@ msgstr "Печатается"
 msgid "Probe Offset"
 msgstr ""
 
-msgid "Probe found applied offset"
-msgstr "Probe обнаружил примененное смещение"
-
 msgid "Profile Name:"
 msgstr "Имя профиля:"
 
@@ -565,6 +569,9 @@ msgstr "Восстановить Soft"
 
 msgid "Reference"
 msgstr "Ссылка"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "Перезагрузка"
@@ -717,6 +724,9 @@ msgstr "Всего:"
 msgid "Unknown Heater"
 msgstr "Неизвестный обогреватель"
 
+msgid "Unknown screw position"
+msgstr ""
+
 msgid "Unload"
 msgstr "Загружено"
 
@@ -806,101 +816,3 @@ msgstr "мм/с"
 
 msgid "mm/s²"
 msgstr "мм/с²"
-
-#~ msgid "Tool"
-#~ msgstr "Инструмент"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "Показать  макросы"
-
-#~ msgid "Z Position"
-#~ msgstr "Позиция Z"
-
-#~ msgid "IPv4"
-#~ msgstr "IPv4"
-
-#~ msgid "IPv6"
-#~ msgstr "IPv6"
-
-#~ msgid "Unknown Heater "
-#~ msgstr "Неизвестный обогреватель "
-
-#~ msgid "Disconnect"
-#~ msgstr "Отключить"
-
-#~ msgid "Duration Only"
-#~ msgstr "Продолжительность печати"
-
-#~ msgid "Klipper Version"
-#~ msgstr "Версия Klipper"
-
-#~ msgid ""
-#~ "Klipper has encountered an error with the micro-controller.\n"
-#~ "Please recompile and flash."
-#~ msgstr ""
-#~ "Klipper определил ошибку в микроконтроллере.\n"
-#~ "Прошейте заново."
-
-#~ msgid ""
-#~ "Klipper has encountered an error.\n"
-#~ "Issue a FIRMWARE_RESTART to attempt fixing the issue."
-#~ msgstr ""
-#~ "Klipper обнаружил ошибку.\n"
-#~ "Выполните перезагрузку прошивки, чтобы попытаться исправить проблему."
-
-#~ msgid "KlipperScreen Version"
-#~ msgstr "Версия KlipperScreen"
-
-#~ msgid "Show Only Heaters in Temp."
-#~ msgstr "Показать только нагреватели в темп."
-
-#~ msgid "Target"
-#~ msgstr "Цель"
-
-#~ msgid "Temp"
-#~ msgstr "Темп"
-
-#~ msgid "Number Pad"
-#~ msgstr "Клавиатура"
-
-#~ msgid "Preheat"
-#~ msgstr "Разогрев"
-
-#~ msgid "Screen will show in less than one second"
-#~ msgstr "Экран отобразится через одну секунду"
-
-#~ msgid "Medium (default)"
-#~ msgstr "Средний (по умолчанию)"
-
-#~ msgid "File Estimation (default)"
-#~ msgstr "По файлу (по умолчанию)"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "Change Printer"
-#~ msgstr "Сменить принтер"
-
-#~ msgid "Fan Off"
-#~ msgstr "Bыключить"
-
-#~ msgid "Fan On"
-#~ msgstr "Bключи"
-
-#~ msgid "Fast"
-#~ msgstr "Быстро"
-
-#~ msgid "Slow"
-#~ msgstr "Mедленно"
-
-#~ msgid "?"
-#~ msgstr "?"
-
-#~ msgid "Cancel Change"
-#~ msgstr "Отменить изменения"
-
-#~ msgid "Control"
-#~ msgstr "Управление"
-
-#~ msgid "Load Average"
-#~ msgstr "Средняя нагрузка"

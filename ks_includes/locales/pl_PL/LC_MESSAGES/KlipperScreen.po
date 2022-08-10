@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 21:35+0200\n"
+"PO-Revision-Date: 2022-08-10 20:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -23,9 +23,6 @@ msgid "Endstops Calibrate"
 msgstr ""
 
 msgid "Calibrations"
-msgstr ""
-
-msgid "Auto-close notifications"
 msgstr ""
 
 msgid "Please plug in leveling switch before Delta Calibration."
@@ -86,8 +83,8 @@ msgstr "Akcje"
 msgid "Add Printer"
 msgstr "Dodaj drukarkę"
 
-msgid "Add bed mesh profile"
-msgstr "Dodaj profil siatki stołu"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr ""
@@ -121,6 +118,9 @@ msgstr "Automatyczny"
 msgid "Auto-calibrate"
 msgstr ""
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Auto-scroll"
 
@@ -130,8 +130,8 @@ msgstr "Poziom stołu"
 msgid "Bed Mesh"
 msgstr "Poziom siatki stołu"
 
-msgid "Bltouch found applied offset"
-msgstr "Bltouch znalazł zastosowane przesunięcie"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "Kalibracja"
@@ -142,8 +142,11 @@ msgstr ""
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Skalibrowano, zapisz konfigurację aby została na stałe"
 
+msgid "Calibrating"
+msgstr "Kalibracja"
+
 msgid "Calibrating..."
-msgstr ""
+msgstr "Kalibracja…"
 
 msgid "Can't set above the maximum:"
 msgstr "Nie można ustawić powyżej maksymum:"
@@ -166,14 +169,10 @@ msgstr "Nie można połączyć się z Moonrakerem"
 msgid "Channel"
 msgstr "Kanał"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Sprawdź /tmp/KlipperScreen.log aby uzyskać więcej informacji.\n"
-"Proszę zgłosić usterkę na GitHub by uzyskać pomoc."
-
 msgid "Check ADXL Wiring"
+msgstr ""
+
+msgid "Checking for updates, please wait..."
 msgstr ""
 
 msgid "Clear"
@@ -215,6 +214,9 @@ msgstr "Obniż"
 
 msgid "Delete"
 msgstr "Skasuj"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "Odznacz"
@@ -474,6 +476,11 @@ msgstr "Sieć"
 msgid "New"
 msgstr ""
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Nic nie wybrano"
 
@@ -541,9 +548,6 @@ msgstr "Drukujemy"
 msgid "Probe Offset"
 msgstr ""
 
-msgid "Probe found applied offset"
-msgstr "Probe znalazł zastosowane przesunięcie"
-
 msgid "Profile Name:"
 msgstr "Nazwa Profilu:"
 
@@ -561,6 +565,9 @@ msgstr "Odzyskaj Miękko"
 
 msgid "Reference"
 msgstr "Sprawdzenie"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "Restartuj"
@@ -715,6 +722,9 @@ msgstr "Całkowity:"
 msgid "Unknown Heater"
 msgstr "Nieznany Podgrzewacz"
 
+msgid "Unknown screw position"
+msgstr ""
+
 msgid "Unload"
 msgstr "Wyładuj"
 
@@ -804,56 +814,3 @@ msgstr "mm/s²"
 
 msgid "mm/s²"
 msgstr "mm/s²"
-
-#~ msgid "Tool"
-#~ msgstr "Narzędzie"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "Wyświetlone Makra"
-
-#~ msgid "Z Position"
-#~ msgstr "Pozycja Z"
-
-#~ msgid "IPv4"
-#~ msgstr "IPv4"
-
-#~ msgid "IPv6"
-#~ msgstr "IPv6"
-
-#~ msgid "Unknown Heater "
-#~ msgstr "Nieznany Podgrzewacz "
-
-#~ msgid "Disconnect"
-#~ msgstr "Rozłącz"
-
-#~ msgid "Duration Only"
-#~ msgstr "Tylko Przebieg"
-
-#~ msgid "Klipper Version"
-#~ msgstr "Wersja Klippera"
-
-#~ msgid ""
-#~ "Klipper has encountered an error with the micro-controller.\n"
-#~ "Please recompile and flash."
-#~ msgstr ""
-#~ "Klipper napotkał błąd z mikrokontrolerem.\n"
-#~ "Prosimy o ponowną kompilację i flashowanie."
-
-#~ msgid ""
-#~ "Klipper has encountered an error.\n"
-#~ "Issue a FIRMWARE_RESTART to attempt fixing the issue."
-#~ msgstr ""
-#~ "Klipper napotkał błąd.\n"
-#~ "Wykonaj FIRMWARE_RESTART, aby spróbować naprawić problem."
-
-#~ msgid "KlipperScreen Version"
-#~ msgstr "Wersja KlipperScreen"
-
-#~ msgid "Show Only Heaters in Temp."
-#~ msgstr "Pokaż tylko grzejniki w temp."
-
-#~ msgid "Target"
-#~ msgstr "Cel"
-
-#~ msgid "Temp"
-#~ msgstr "Temp"

@@ -19,9 +19,6 @@ msgstr ""
 msgid "Calibrations"
 msgstr ""
 
-msgid "Auto-close notifications"
-msgstr ""
-
 msgid "Please plug in leveling switch before Delta Calibration."
 msgstr ""
 
@@ -80,8 +77,8 @@ msgstr "Műveletek"
 msgid "Add Printer"
 msgstr "Nyomtató hozzáadása"
 
-msgid "Add bed mesh profile"
-msgstr "Ágyháló profil hozzáadása"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr "Alkalmaz"
@@ -115,6 +112,9 @@ msgstr "Auto"
 msgid "Auto-calibrate"
 msgstr "Automatikus kalibrálás"
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Automatikus görgetés"
 
@@ -124,8 +124,8 @@ msgstr "Ágyszint"
 msgid "Bed Mesh"
 msgstr "Ágyháló"
 
-msgid "Bltouch found applied offset"
-msgstr "A Bltouch alkalmazott eltolást talált"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "Kalibrálás"
@@ -135,6 +135,9 @@ msgstr "Kalibrálva"
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Kalibrálva! Mentse el a konfigurációt, hogy az állandó legyen"
+
+msgid "Calibrating"
+msgstr "Kalibrálás"
 
 msgid "Calibrating..."
 msgstr "Kalibrálás..."
@@ -160,15 +163,11 @@ msgstr "Nem lehet csatlakozni a Moonrakerhez"
 msgid "Channel"
 msgstr "Csatorna"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Nézd a /tmp/KlipperScreen.log további információért.\n"
-"Segítségért küldj be egy hibajegyet a GitHubon."
-
 msgid "Check ADXL Wiring"
 msgstr "Ellenőrizze az ADXL kábelezést"
+
+msgid "Checking for updates, please wait..."
+msgstr ""
 
 msgid "Clear"
 msgstr "Egyértelmű"
@@ -209,6 +208,9 @@ msgstr "Csökkent"
 
 msgid "Delete"
 msgstr "Töröl"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "Kijelölés törlése"
@@ -472,6 +474,11 @@ msgstr "Hálózat"
 msgid "New"
 msgstr "Új"
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Nincs kiválasztva"
 
@@ -538,9 +545,6 @@ msgstr "Nyomtatás"
 msgid "Probe Offset"
 msgstr "Szonda eltolás"
 
-msgid "Probe found applied offset"
-msgstr "A szonda alkalmazott eltolást talált"
-
 msgid "Profile Name:"
 msgstr "Profil név:"
 
@@ -558,6 +562,9 @@ msgstr "Program visszaállítása"
 
 msgid "Reference"
 msgstr "Referencia"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "Újraindítás"
@@ -711,6 +718,9 @@ msgstr "Teljes:"
 
 msgid "Unknown Heater"
 msgstr "Ismeretlen melegítő"
+
+msgid "Unknown screw position"
+msgstr ""
 
 msgid "Unload"
 msgstr "Kiadás"

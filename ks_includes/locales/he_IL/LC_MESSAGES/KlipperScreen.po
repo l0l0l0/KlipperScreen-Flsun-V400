@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Klipperscreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 21:34+0200\n"
+"PO-Revision-Date: 2022-08-10 20:15+0200\n"
 "Last-Translator: Emanuel Sharvit <manu7irl@gmail.com>\n"
 "Language-Team: \n"
 "Language: he_IL\n"
@@ -24,9 +24,6 @@ msgid "Endstops Calibrate"
 msgstr ""
 
 msgid "Calibrations"
-msgstr ""
-
-msgid "Auto-close notifications"
 msgstr ""
 
 msgid "Please plug in leveling switch before Delta Calibration."
@@ -87,8 +84,8 @@ msgstr "פעולות"
 msgid "Add Printer"
 msgstr "הוסף מדפסת"
 
-msgid "Add bed mesh profile"
-msgstr "הוסף פרופיל רשת למיטה"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr ""
@@ -123,6 +120,9 @@ msgstr "אוטומטי"
 msgid "Auto-calibrate"
 msgstr ""
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "גלילה אוטומטית"
 
@@ -132,8 +132,8 @@ msgstr "פילוס מיטה"
 msgid "Bed Mesh"
 msgstr "מיפוי מיטה"
 
-msgid "Bltouch found applied offset"
-msgstr "Bltouch נמצא היסט מוחל"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "לְדַרֵג"
@@ -143,6 +143,9 @@ msgstr ""
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "מכויל, שמור את התצורה כדי שהיא תהיה קבועה"
+
+msgid "Calibrating"
+msgstr ""
 
 msgid "Calibrating..."
 msgstr ""
@@ -168,14 +171,10 @@ msgstr "לא ניתן להתחבר ל-Moonraker"
 msgid "Channel"
 msgstr "עָרוּץ"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"בדוק KlipperScreen.log, בתיקית tmp ליותר פרטים.\n"
-"אנא שלח דוח תקלה ב- GITHUB, לעזרה."
-
 msgid "Check ADXL Wiring"
+msgstr ""
+
+msgid "Checking for updates, please wait..."
 msgstr ""
 
 msgid "Clear"
@@ -217,6 +216,9 @@ msgstr "לְהַקְטִין"
 
 msgid "Delete"
 msgstr "לִמְחוֹק"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "בטל את הבחירה"
@@ -480,6 +482,11 @@ msgstr "רשת"
 msgid "New"
 msgstr ""
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "שום דבר לא נבחר"
 
@@ -548,9 +555,6 @@ msgstr "מדפיס"
 msgid "Probe Offset"
 msgstr ""
 
-msgid "Probe found applied offset"
-msgstr "Probe נמצא היסט מוחל"
-
 msgid "Profile Name:"
 msgstr "שם פרופיל:"
 
@@ -568,6 +572,9 @@ msgstr "לְהַחלִים Soft"
 
 msgid "Reference"
 msgstr "התייחסות"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "אתחל"
@@ -722,6 +729,9 @@ msgstr "סך הכל:"
 msgid "Unknown Heater"
 msgstr "מחמם לא ידוע"
 
+msgid "Unknown screw position"
+msgstr ""
+
 msgid "Unload"
 msgstr "לִפְרוֹק"
 
@@ -813,122 +823,3 @@ msgstr "מ\"מ/ש"
 
 msgid "mm/s²"
 msgstr "mm/s²"
-
-#~ msgid "Tool"
-#~ msgstr "כלי"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "מוצגים מאקרו"
-
-#~ msgid "Z Position"
-#~ msgstr "מיקום Z"
-
-#~ msgid "IPv4"
-#~ msgstr "IPv4"
-
-#~ msgid "IPv6"
-#~ msgstr "IPv6"
-
-#~ msgid "Unknown Heater "
-#~ msgstr "מחמם לא ידוע "
-
-#~ msgid "Disconnect"
-#~ msgstr "לְנַתֵק"
-
-#~ msgid "Duration Only"
-#~ msgstr "משך הזמן בלבד"
-
-#~ msgid "Klipper Version"
-#~ msgstr "גרסא של קליפר"
-
-#~ msgid ""
-#~ "Klipper has encountered an error with the micro-controller.\n"
-#~ "Please recompile and flash."
-#~ msgstr ""
-#~ "קליפר נתקל בשגיאה בבקר המיקרו.\n"
-#~ "אנא הידור מחדש והבהב."
-
-#~ msgid ""
-#~ "Klipper has encountered an error.\n"
-#~ "Issue a FIRMWARE_RESTART to attempt fixing the issue."
-#~ msgstr ""
-#~ "קליפר נתקל בבעיה. \n"
-#~ "נסה להריץ firmware_restart, כדי לפתור את הבעיה."
-
-#~ msgid "KlipperScreen Version"
-#~ msgstr "גרסא של KlipperScreen"
-
-#~ msgid "Show Only Heaters in Temp."
-#~ msgstr "הצג רק מחממים בטמפ'."
-
-#~ msgid "Target"
-#~ msgstr "יַעַד"
-
-#~ msgid "Temp"
-#~ msgstr "טמפ'"
-
-#~ msgid "Number Pad"
-#~ msgstr "פד נומרי"
-
-#~ msgid "Preheat"
-#~ msgstr "חימום מראש"
-
-#~ msgid "Screen will show in less than one second"
-#~ msgstr "המסך יופיע תוך פחות משנייה אחת"
-
-#~ msgid "Medium (default)"
-#~ msgstr "בינוני (ברירת מחדל)"
-
-#~ msgid "File Estimation (default)"
-#~ msgstr "קובץ (ברירת מחדל)"
-
-#~ msgid "Fan Off"
-#~ msgstr "כבה מאוורר"
-
-#~ msgid "Fan On"
-#~ msgstr "הפעל מאוורר"
-
-#~ msgid "Fast"
-#~ msgstr "מהיר"
-
-#~ msgid "Slow"
-#~ msgstr "האט"
-
-#~ msgid "?"
-#~ msgstr "?"
-
-#~ msgid "Cancel Change"
-#~ msgstr "בטל שינוי"
-
-#~ msgid "Control"
-#~ msgstr "שליטה"
-
-#~ msgid "Load Average"
-#~ msgstr "עומס ממוצע"
-
-#~ msgid "Network Info"
-#~ msgstr "מידע על הרשת"
-
-#~ msgid "Back"
-#~ msgstr "חזור"
-
-#~ msgid "Extrusion"
-#~ msgstr "שיחול"
-
-#~ msgid "Fan +"
-#~ msgstr "מאוורר +"
-
-#~ msgid "Fan -"
-#~ msgstr "מאוורר -"
-
-#~ msgid "System Information"
-#~ msgstr "מידע אודות המערכת"
-
-#~ msgid "Time Elapsed"
-#~ msgstr "זמן שעבר"
-
-#~ msgid "Time Left"
-#~ msgstr "זמן שנשאר"
-
-#~ msgid "Tool 1"
-#~ msgstr "כלי 1"

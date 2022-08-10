@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 21:36+0200\n"
+"PO-Revision-Date: 2022-08-10 20:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -22,9 +22,6 @@ msgid "Endstops Calibrate"
 msgstr ""
 
 msgid "Calibrations"
-msgstr ""
-
-msgid "Auto-close notifications"
 msgstr ""
 
 msgid "Please plug in leveling switch before Delta Calibration."
@@ -85,8 +82,8 @@ msgstr "Åtgärder"
 msgid "Add Printer"
 msgstr "Lägg till skrivare"
 
-msgid "Add bed mesh profile"
-msgstr "Lägg till mesh profil"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr ""
@@ -120,6 +117,9 @@ msgstr "Automatisk"
 msgid "Auto-calibrate"
 msgstr ""
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Auto-scrolla"
 
@@ -129,8 +129,8 @@ msgstr ""
 msgid "Bed Mesh"
 msgstr ""
 
-msgid "Bltouch found applied offset"
-msgstr "Bltouch hittade tillämpad offset"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "Kalibrera"
@@ -141,8 +141,11 @@ msgstr ""
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Kalibrerad, spara konfiguration för att göra den permanent"
 
+msgid "Calibrating"
+msgstr "Kalibrera"
+
 msgid "Calibrating..."
-msgstr ""
+msgstr "Kalibrera…"
 
 msgid "Can't set above the maximum:"
 msgstr "Kan inte ställa in över maxgränsen:"
@@ -165,14 +168,10 @@ msgstr "Kan inte ansluta till Moonraker"
 msgid "Channel"
 msgstr ""
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Kontrollera /tmp/KlipperScreen.log för mer information.\n"
-"Skicka in ett problem på GitHub för hjälp."
-
 msgid "Check ADXL Wiring"
+msgstr ""
+
+msgid "Checking for updates, please wait..."
 msgstr ""
 
 msgid "Clear"
@@ -214,6 +213,9 @@ msgstr "Minska"
 
 msgid "Delete"
 msgstr "Radera"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "Avmarkera"
@@ -477,6 +479,11 @@ msgstr "Nätverk"
 msgid "New"
 msgstr ""
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Inget valt"
 
@@ -543,9 +550,6 @@ msgstr "Skriver ut"
 msgid "Probe Offset"
 msgstr ""
 
-msgid "Probe found applied offset"
-msgstr ""
-
 msgid "Profile Name:"
 msgstr "Profilens namn:"
 
@@ -563,6 +567,9 @@ msgstr ""
 
 msgid "Reference"
 msgstr "Referens"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "Starta om"
@@ -717,6 +724,9 @@ msgstr ""
 msgid "Unknown Heater"
 msgstr "Okänt värmeelement"
 
+msgid "Unknown screw position"
+msgstr ""
+
 msgid "Unload"
 msgstr ""
 
@@ -804,12 +814,3 @@ msgstr "mm/s"
 
 msgid "mm/s²"
 msgstr "mm/s²"
-
-#~ msgid "Tool"
-#~ msgstr "Verktyg"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "Makron visas"
-
-#~ msgid "Z Position"
-#~ msgstr "Z Position"

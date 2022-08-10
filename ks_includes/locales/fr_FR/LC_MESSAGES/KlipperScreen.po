@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 20:39+0200\n"
+"PO-Revision-Date: 2022-08-10 20:14+0200\n"
 "Last-Translator: Cyril Guislain\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -24,14 +24,12 @@ msgstr "Calibration Endstops"
 msgid "Calibrations"
 msgstr "Calibrations"
 
-msgid "Auto-close notifications"
-msgstr "Fermeture automatique des notifications"
-
 msgid "Please plug in leveling switch before Delta Calibration."
 msgstr "Veuillez connecter le palpeur avant de démarrer la Calibration Delta."
 
 msgid "Please plug in leveling switch before auto-leveling."
-msgstr "Veuillez connecter le palpeur avant de démarrer le nivellement automatique."
+msgstr ""
+"Veuillez connecter le palpeur avant de démarrer le nivellement automatique."
 
 msgid "Please remove leveling switch before move Z0."
 msgstr "Veuillez déconnecter le palpeur avant le déplacement vers Z=0."
@@ -85,8 +83,8 @@ msgstr "Actions"
 msgid "Add Printer"
 msgstr "Ajouter une imprimante"
 
-msgid "Add bed mesh profile"
-msgstr "Ajouter un profil de maillage"
+msgid "Add profile"
+msgstr "Ajouter un profil"
 
 msgid "Apply"
 msgstr "Appliquer"
@@ -120,6 +118,9 @@ msgstr "Auto"
 msgid "Auto-calibrate"
 msgstr "Calibration Automatique"
 
+msgid "Auto-close notifications"
+msgstr "Fermeture automatique des notifications"
+
 msgid "Auto-scroll"
 msgstr "Défilement automatique"
 
@@ -129,8 +130,8 @@ msgstr "Nivellement du plateau"
 msgid "Bed Mesh"
 msgstr "Maillage du plateau"
 
-msgid "Bltouch found applied offset"
-msgstr "Le Bltouch a trouvé le décalage appliqué"
+msgid "Bed screw configuration:"
+msgstr "Configuration des vis:"
 
 msgid "Calibrate"
 msgstr "Calibration Delta"
@@ -140,6 +141,9 @@ msgstr "Calibré"
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Calibré, enregistrez la configuration pour la rendre permanente"
+
+msgid "Calibrating"
+msgstr "Calibration"
 
 msgid "Calibrating..."
 msgstr "Calibration…"
@@ -165,15 +169,11 @@ msgstr "Impossible de se connecter à Moonraker"
 msgid "Channel"
 msgstr "Canal"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Vérifiez /tmp/KlipperScreen.log pour plus d'informations.\n"
-"Veuillez soumettre une requête sur GitHub pour obtenir de l’aide."
-
 msgid "Check ADXL Wiring"
 msgstr "Vérifier le câblage ADXL"
+
+msgid "Checking for updates, please wait..."
+msgstr "Recherche de mises à jour, veuillez patienter…"
 
 msgid "Clear"
 msgstr "Nettoyer"
@@ -214,6 +214,9 @@ msgstr "Diminuer"
 
 msgid "Delete"
 msgstr "Effacer"
+
+msgid "Delete File?"
+msgstr "Supprimer le fichier ?"
 
 msgid "Deselect"
 msgstr "Désélectionner"
@@ -308,10 +311,10 @@ msgid "Height:"
 msgstr "Hauteur:"
 
 msgid "Hidden"
-msgstr "Caché"
+msgstr "Masqué"
 
 msgid "Hide"
-msgstr "Cacher"
+msgstr "Masquer"
 
 msgid "Hide sensors in Temp."
 msgstr "Masquer les capteurs dans Températures"
@@ -471,6 +474,13 @@ msgstr "Réseau"
 msgid "New"
 msgstr "Nouveau"
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+"Non pris en charge pour la détection automatique, il doit être configuré "
+"dans klipperscreen.conf"
+
 msgid "Nothing selected"
 msgstr "Rien de sélectionné"
 
@@ -537,11 +547,8 @@ msgstr "Impression"
 msgid "Probe Offset"
 msgstr "Décalage du palpeur"
 
-msgid "Probe found applied offset"
-msgstr "Le palpeur a trouvé le décalage appliqué"
-
 msgid "Profile Name:"
-msgstr "Nom de profil:"
+msgstr "Nom du profil:"
 
 msgid "Quad Gantry Level"
 msgstr "Portique à quatre niveaux"
@@ -557,6 +564,9 @@ msgstr "Récupérer Soft"
 
 msgid "Reference"
 msgstr "Référence"
+
+msgid "Refresh"
+msgstr "Rafraîchir"
 
 msgid "Restart"
 msgstr "Redémarrer"
@@ -710,6 +720,9 @@ msgstr "Total:"
 
 msgid "Unknown Heater"
 msgstr "Chauffe inconnue"
+
+msgid "Unknown screw position"
+msgstr "Position de vis inconnue"
 
 msgid "Unload"
 msgstr "Décharger"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-09 21:36+0200\n"
+"PO-Revision-Date: 2022-08-10 20:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: tr_TR\n"
@@ -22,9 +22,6 @@ msgid "Endstops Calibrate"
 msgstr ""
 
 msgid "Calibrations"
-msgstr ""
-
-msgid "Auto-close notifications"
 msgstr ""
 
 msgid "Please plug in leveling switch before Delta Calibration."
@@ -85,8 +82,8 @@ msgstr "Eylemler"
 msgid "Add Printer"
 msgstr "Yazıcı Ekle"
 
-msgid "Add bed mesh profile"
-msgstr "Tabla Örgüsü profili ekle"
+msgid "Add profile"
+msgstr ""
 
 msgid "Apply"
 msgstr "Uygula"
@@ -120,6 +117,9 @@ msgstr "Otomatik"
 msgid "Auto-calibrate"
 msgstr "Otomatik-Kalibrasyon"
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr "Otomatik kaydırma"
 
@@ -129,8 +129,8 @@ msgstr "Tabla Ayarı"
 msgid "Bed Mesh"
 msgstr "Tabla Örgüsü"
 
-msgid "Bltouch found applied offset"
-msgstr "Bltouch uygulanmış ofseti buldu"
+msgid "Bed screw configuration:"
+msgstr ""
 
 msgid "Calibrate"
 msgstr "Kalibre et"
@@ -140,6 +140,9 @@ msgstr "Kalibre Edildi"
 
 msgid "Calibrated, save configuration to make it permanent"
 msgstr "Kalibre edildi, kalıcı hale getirmek için yapılandırmayı kaydedin"
+
+msgid "Calibrating"
+msgstr "Kalibre Ediliyor"
 
 msgid "Calibrating..."
 msgstr "Kalibre Ediliyor..."
@@ -165,15 +168,11 @@ msgstr "Moonraker'a bağlanılamıyor"
 msgid "Channel"
 msgstr "Kanal"
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
-msgstr ""
-"Daha fazla bilgi için /tmp/KlipperScreen.log'a bakın.\n"
-"Lütfen yardım için GitHub'da bir sorun gönderin."
-
 msgid "Check ADXL Wiring"
 msgstr "ADXL Bağlantılarını Kontrol Et"
+
+msgid "Checking for updates, please wait..."
+msgstr ""
 
 msgid "Clear"
 msgstr "Temizle"
@@ -214,6 +213,9 @@ msgstr "Azalt"
 
 msgid "Delete"
 msgstr "Sil"
+
+msgid "Delete File?"
+msgstr ""
 
 msgid "Deselect"
 msgstr "Seçimi kaldır"
@@ -477,6 +479,11 @@ msgstr "Ağ"
 msgid "New"
 msgstr "Yeni"
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr "Hiçbir şey seçilmedi"
 
@@ -496,7 +503,7 @@ msgstr[0] "Paket yükseltilecek"
 msgstr[1] "Paketler yükseltilecek"
 
 msgid "Part Fan"
-msgstr ""
+msgstr "Parça Fan"
 
 msgid "Password saved"
 msgstr "Şifre kaydedildi"
@@ -511,7 +518,7 @@ msgid "Perform a full upgrade?"
 msgstr "Tam yükseltme yap?"
 
 msgid "Pins"
-msgstr ""
+msgstr "Pinler"
 
 msgid "Please recompile and flash the micro-controller."
 msgstr "Lütfen mikro denetleyiciyi yeniden derleyin ve flaşlayın."
@@ -543,9 +550,6 @@ msgstr "Yazdırılıyor"
 msgid "Probe Offset"
 msgstr "Prob ofseti"
 
-msgid "Probe found applied offset"
-msgstr "Prob uygulanmış ofset bulundu"
-
 msgid "Profile Name:"
 msgstr "Profil ismi:"
 
@@ -563,6 +567,9 @@ msgstr "Yumuşak Kurtar"
 
 msgid "Reference"
 msgstr "Referans"
+
+msgid "Refresh"
+msgstr ""
 
 msgid "Restart"
 msgstr "Yeniden Başlat"
@@ -587,7 +594,7 @@ msgid "Retry #%s"
 msgstr "Yeniden Dene #%s"
 
 msgid "Retrying"
-msgstr ""
+msgstr "Yeniden Deneniyor"
 
 msgid "Save"
 msgstr "Kaydet"
@@ -717,6 +724,9 @@ msgstr "Toplam:"
 msgid "Unknown Heater"
 msgstr "Bilinmeyen Isıtıcı"
 
+msgid "Unknown screw position"
+msgstr ""
+
 msgid "Unload"
 msgstr "Boşalt"
 
@@ -804,12 +814,3 @@ msgstr "mm/s"
 
 msgid "mm/s²"
 msgstr "mm/s²"
-
-#~ msgid "Tool"
-#~ msgstr "Araç"
-
-#~ msgid "Displayed Macros"
-#~ msgstr "Görüntülenen Makrolar"
-
-#~ msgid "Z Position"
-#~ msgstr "Z Pozisyonu"

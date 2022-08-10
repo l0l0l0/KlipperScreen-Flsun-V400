@@ -24,13 +24,13 @@ msgstr ""
 msgid "Calibrations"
 msgstr ""
 
-msgid "Auto-close notifications"
+msgid "Please plug in leveling switch before Delta Calibration."
 msgstr ""
 
-msgid "Please plug in leveling switch before auto-leveling"
+msgid "Please plug in leveling switch before auto-leveling."
 msgstr ""
 
-msgid "Please remove leveling switch before move Z0"
+msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
@@ -82,7 +82,7 @@ msgstr ""
 msgid "Add Printer"
 msgstr ""
 
-msgid "Add bed mesh profile"
+msgid "Add profile"
 msgstr ""
 
 msgid "Apply"
@@ -117,6 +117,9 @@ msgstr ""
 msgid "Auto-calibrate"
 msgstr ""
 
+msgid "Auto-close notifications"
+msgstr ""
+
 msgid "Auto-scroll"
 msgstr ""
 
@@ -126,7 +129,7 @@ msgstr ""
 msgid "Bed Mesh"
 msgstr ""
 
-msgid "Bltouch found applied offset"
+msgid "Bed screw configuration:"
 msgstr ""
 
 msgid "Calibrate"
@@ -136,6 +139,9 @@ msgid "Calibrated"
 msgstr ""
 
 msgid "Calibrated, save configuration to make it permanent"
+msgstr ""
+
+msgid "Calibrating"
 msgstr ""
 
 msgid "Calibrating..."
@@ -162,12 +168,10 @@ msgstr ""
 msgid "Channel"
 msgstr ""
 
-msgid ""
-"Check /tmp/KlipperScreen.log for more information.\n"
-"Please submit an issue on GitHub for help."
+msgid "Check ADXL Wiring"
 msgstr ""
 
-msgid "Check ADXL Wiring"
+msgid "Checking for updates, please wait..."
 msgstr ""
 
 msgid "Clear"
@@ -208,6 +212,9 @@ msgid "Decrease"
 msgstr ""
 
 msgid "Delete"
+msgstr ""
+
+msgid "Delete File?"
 msgstr ""
 
 msgid "Deselect"
@@ -466,6 +473,11 @@ msgstr ""
 msgid "New"
 msgstr ""
 
+msgid ""
+"Not supported for auto-detection, it needs to be configured in klipperscreen."
+"conf"
+msgstr ""
+
 msgid "Nothing selected"
 msgstr ""
 
@@ -532,9 +544,6 @@ msgstr ""
 msgid "Probe Offset"
 msgstr ""
 
-msgid "Probe found applied offset"
-msgstr ""
-
 msgid "Profile Name:"
 msgstr ""
 
@@ -551,6 +560,9 @@ msgid "Recover Soft"
 msgstr ""
 
 msgid "Reference"
+msgstr ""
+
+msgid "Refresh"
 msgstr ""
 
 msgid "Restart"
@@ -700,6 +712,9 @@ msgid "Total:"
 msgstr ""
 
 msgid "Unknown Heater"
+msgstr ""
+
+msgid "Unknown screw position"
 msgstr ""
 
 msgid "Unload"
