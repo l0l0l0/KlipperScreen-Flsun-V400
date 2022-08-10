@@ -13,7 +13,7 @@ KlipperScreen is a touchscreen GUI that interfaces with [Klipper](https://github
 This version of KlipperScreen is compatible with FLSUN's Speeder Pad, it's optimized for Delta printers.
 
 - Latest build of KlipperScreen
-- Z-Offset Calibration menu rearrangement
+- Improved Z-Offset Calibration menu
 - Added support for Endstops Phase Calibration
 - Some fixes and adjustments
 
