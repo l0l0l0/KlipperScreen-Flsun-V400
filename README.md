@@ -39,7 +39,9 @@ install_script: scripts/KlipperScreen-install.sh
 
 ![Update Manager](https://user-images.githubusercontent.com/12702322/183909392-24aab778-c8ed-4f81-be39-ac51612bf12c.jpg)
 
-- Once installed you will have the new version of KlipperScreen and future updates will point directly to my repo.
+- Once installed you will have the new version of KlipperScreen and future updates will point directly to my repo like this:
+
+![Update](https://user-images.githubusercontent.com/12702322/183990132-0a7673d1-2e51-484a-8113-e0bd54813995.jpg)
 
 
 ## Restoration
