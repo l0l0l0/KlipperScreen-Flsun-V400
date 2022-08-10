@@ -8,7 +8,7 @@ KlipperScreen is a touchscreen GUI that interfaces with [Klipper](https://github
 
 [Click here to access the documentation.](https://klipperscreen.readthedocs.io/en/latest/)
 
-### About
+## About
 
 This version of KlipperScreen is compatible with FLSUN's Speeder Pad, it's optimized for Delta printers.
 
@@ -18,4 +18,40 @@ This version of KlipperScreen is compatible with FLSUN's Speeder Pad, it's optim
 - Some fixes and adjustments
 
 
-### Installation
+## Installation
+
+- Go to your Mainsail Web interface then select the `Machine` tab.
+- Right-click on the `moonraker.conf` file then `Download` to make a backup of the original file. Keep this file carefully for possible backtracking.
+- Now, still on Mainsail, open the `moonraker.conf` file and modify the `[update_manager KlipperScreen]` section  as follows:
+
+```
+[update_manager KlipperScreen]
+type: git_repo
+path: /home/pi/KlipperScreen
+origin: https://github.com/Guilouz/KlipperScreen-Flsun-V400.git
+env: /home/pi/.KlipperScreen-env/bin/python
+requirements: scripts/KlipperScreen-requirements.txt
+install_script: scripts/KlipperScreen-install.sh
+```
+- Once done, click on `Save & close` at the top right to save the file.
+- You can now click the refresh button (still in the Machine tab) on the `Update Manager` tile.
+- You will see a new KlipperScreen update appear, if you see a ⚠️DIRTY update, just select `Hard Recovery` to update.
+
+![Update Manager](https://user-images.githubusercontent.com/12702322/183909392-24aab778-c8ed-4f81-be39-ac51612bf12c.jpg)
+
+- Once installed you will have the new version of KlipperScreen and future updates will point directly to my repo.
+
+
+## Restoration
+
+- If you want to go back to the Flsun version, you can simply restore the previously downloaded `moonraker.conf` file or re-edit the `[update_manager KlipperScreen]` section and click the refresh button on the `Update Manager` tile:
+
+```
+[update_manager KlipperScreen]
+type: git_repo
+path: /home/pi/KlipperScreen
+origin: https://gitee.com/zzcatvs/KlipperScreen.git
+env: /home/pi/.KlipperScreen-env/bin/python
+requirements: scripts/KlipperScreen-requirements.txt
+install_script: scripts/KlipperScreen-install.sh
+```
