@@ -55,3 +55,7 @@ env: /home/pi/.KlipperScreen-env/bin/python
 requirements: scripts/KlipperScreen-requirements.txt
 install_script: scripts/KlipperScreen-install.sh
 ```
+
+## Changelog
+
+- 10/08/2022 : First release
